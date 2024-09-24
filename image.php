@@ -12,7 +12,7 @@ $image_url = "https://localhost/rissala/test" . $image_path; // Ensure this poin
 $caption = "Here is your image"; // Optional caption for the image
 
 // API endpoint URL
-$url = "https://api.ultramsg.com/$instance_id/messages/image";
+$url = "https://api.ultramsg.com/$instance_id/messages/image?token=$token";
 
 // Prepare the data
 $data = [
